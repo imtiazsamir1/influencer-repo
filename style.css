@@ -5,6 +5,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+h1 {
+  font-size: 55px;
+  font-weight: 900;
+}
+
 .container {
   height: 70px;
   width: 100%;
@@ -20,13 +26,16 @@
   height: 70px;
 }
 .logo {
-  margin-left: 20%;
+  margin-left: 15%;
 }
 .menu-item {
   display: flex;
   margin-right: 50px;
   margin-left: 100%;
   width: 100%;
+}
+.menu-item a {
+  margin-right: 25px;
 }
 
 nav li {
@@ -36,4 +45,32 @@ nav li {
 nav a {
   text-decoration: none;
   color: black;
+}
+.second-container {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.half-width {
+  width: 40%;
+  padding-left: 5px;
+}
+#main-cam {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  margin-left: 16%;
+}
+#influencer-box {
+  margin-top: 5%;
+}
+.click-more {
+  text-decoration: none;
+
+  color: white;
+  background-color: rgb(216, 40, 63);
+  padding: 5px 30px;
+  border-radius: 25px;
+}
+.link-sign {
+  margin: 10px 0px;
 }
