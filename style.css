@@ -126,6 +126,28 @@ input {
 }
 button {
   width: 20%;
-
   background-color: rgb(216, 40, 63);
+}
+.footer {
+  height: 250px;
+  text-align: center;
+
+  background-color: rgb(2, 2, 41);
+  margin-top: 80px;
+  margin-bottom: 0%;
+  padding-top: 1%;
+}
+.footer-item {
+  margin-top: 50px;
+}
+.all-right {
+  color: gray;
+}
+
+.footer-text {
+  color: aliceblue;
+}
+.icon {
+  color: rgb(252, 250, 250);
+  font-size: 30px;
 }
