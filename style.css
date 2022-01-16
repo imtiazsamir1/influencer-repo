@@ -158,3 +158,27 @@ button {
   color: rgb(252, 250, 250);
   font-size: 30px;
 }
+@media only screen and (max-width: 688px) {
+  .grid-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blogs {
+    width: 100%;
+  }
+  .blogs img {
+    width: 100%;
+  }
+  .login-section {
+    margin-left: 15%;
+  }
+  .second-container {
+    flex-direction: column-reverse;
+  }
+  .second-container img {
+    justify-content: center;
+  }
+  .half-width {
+    text-align: center;
+    flex-wrap: none;
+  }
+}
